@@ -1,0 +1,7303 @@
+{
+  "q": [
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 114.00133
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 42.37703
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 133.94174
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 130.94885
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 52.201225
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.99999017
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.90382266
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 122.8581
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 129.26355
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 26.124441
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 10.1516
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 28.796082
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 156.82338
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 33.087517
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 136.57037
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.7175705
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 126.99526
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.7175705
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 161.19164
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 9.387168
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 13.654681
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 68.7527
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 114.136215
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 115.282455
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 128.70369
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 11.114655
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 113.622505
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 58.757107
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 132.42365
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 131.68896
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 110.82854
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 119.63624
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 124.743454
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 111.47588
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 121.66906
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.4506367
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 120.313194
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 153.14804
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 86.42747
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 24.260584
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 18.922863
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 160.47186
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 11.840518
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 125.63549
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 119.80894
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.9999973
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 106.43771
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 23.11364
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 153.03447
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 125.77622
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 80.451355
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 120.02815
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.96184796
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 132.94652
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 114.50689
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 8.552567
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": -0.9650693
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 156.43196
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 163.82834
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 120.65089
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 82.19803
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 52.39992
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 137.34183
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.9999976
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.77123207
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 46.69445
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.46855903
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 55.278698
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 125.09862
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 132.38301
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 29.933594
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 165.0278
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 120.713455
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.9999897
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 2.712876
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 91.37897
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.77123207
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 15.508954
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 62.57445
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 126.11518
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 26.863773
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 117.96486
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 34.4495
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 158.07697
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 40.53943
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 91.655655
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 109.21712
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 4.735729
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 114.66995
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 34.235023
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 18.391542
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 128.37282
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 32.743996
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 166.50278
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 107.50177
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 95.70865
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 115.318596
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 9.547791
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 119.43103
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 7.023746
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.039204434
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 129.97481
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 62.210438
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 60.996117
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.04875268
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 13.567263
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 145.35905
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 115.987656
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 151.25545
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 108.26206
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 13.025121
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 143.4974
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 15.593151
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 4.194105
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.271
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 51.448746
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 104.8418
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 124.3842
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 12.635618
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 135.48091
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 20.774654
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.91137064
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 26.933128
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 133.98746
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 26.031258
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 12.101679
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 121.798256
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 163.27634
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 4.808422
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 9.132523
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 73.67228
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 157.4736
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 131.87692
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 131.94725
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 156.18297
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 99.98762
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 112.190216
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 112.890686
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.5695328
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.91316766
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 128.86449
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 0.119030565
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 23.196075
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 129.6743
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 22.879375
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 109.90409
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 129.87428
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 121.28602
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 153.78151
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 30.328388
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 122.90843
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.06598776
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.9637898
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 22.941391
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 16.945614
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 137.4947
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 161.49628
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 122.997795
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 122.1853
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 149.76291
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 11.52391
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 154.69377
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 133.08665
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 158.6212
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 120.24397
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 33.184673
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 136.93944
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 115.19379
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 69.12657
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 121.56084
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 15.168014
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 132.02199
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 71.866516
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 13.866267
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 121.38436
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 114.04784
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.7458134
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 97.36988
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 126.62276
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 14.116755
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 162.1174
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 130.91125
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 105.03433
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 29.060253
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 115.26371
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 21.917747
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 156.22806
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 127.49464
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.46855903
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 154.3113
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 35.89203
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 49.89638
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 12.042416
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 141.67677
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 45.878483
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 124.50566
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 96.178955
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 60.23303
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 132.23483
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 142.60059
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.9999973
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.271
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 124.36693
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 28.706423
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 121.56809
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 62.035706
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 103.56942
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 125.835014
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 140.70692
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 119.07701
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 21.60724
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 13.066642
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 127.22435
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.7542392
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 154.18279
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 24.627106
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 2.0453568
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 126.89287
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 128.92708
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 102.86997
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 152.81966
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 84.01653
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 81.98717
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 115.54508
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 110.27537
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 108.94685
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 127.58572
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 75.97546
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.46855903
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 161.24011
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 106.94878
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.91137064
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 93.11713
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 117.41641
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.5217031
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 131.80531
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 164.23468
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 23.11882
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.9825465
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 18.990585
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 122.87154
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 22.604172
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 2.4014494
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 126.029045
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 118.042854
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 0.26908803
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 154.9487
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 33.763042
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 12.638604
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 149.85765
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 4.537046
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 160.61891
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 156.85634
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 111.68946
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 130.86398
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 10.398518
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 11.674164
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 120.52298
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 123.974815
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 117.1415
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 60.851746
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 121.9781
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 120.465546
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.9999578
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 115.04944
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 131.56824
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 99.55083
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 14.492075
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 124.24544
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 32.46093
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 138.1814
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 125.52214
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 95.68321
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 162.62798
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.04755746
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 133.74677
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 94.23393
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 132.20424
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 156.50188
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 113.666435
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 103.46911
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 163.78088
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.99995595
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 156.20647
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 122.01403
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 158.37158
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 63.848557
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 3.2863936
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 2.5479987
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 82.916885
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 155.48518
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.9999976
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 86.00047
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 96.57
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 120.409256
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 123.65825
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 132.52806
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 107.62526
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 158.70618
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 167.19698
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 77.06031
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 44.35117
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 126.234535
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 154.75813
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 85.11306
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 140.03908
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 23.91248
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 153.09329
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 104.73082
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 135.02641
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 40.06372
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 148.87595
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 148.7005
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 11.184453
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.0812501
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 114.23875
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 133.84464
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 102.77312
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 74.76902
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 25.886105
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 111.327644
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.77123207
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 26.374304
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 153.9213
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 123.33865
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 119.77575
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 21.794743
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 153.04938
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.271
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 43.745365
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 123.26126
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 34.94973
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 111.32065
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 76.60844
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 62.437206
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 15.777192
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 19.109634
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 125.857376
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.035544306
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 95.26952
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.9999902
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 111.03339
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 125.93145
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 95.01937
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 78.42056
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 140.81561
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 135.288
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 22.64339
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 31.907375
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": -0.814698
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 4.4608116
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 115.56928
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 2.8842347
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 8.249207
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 106.717415
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 115.21794
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 4.331287
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 160.10463
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 134.7623
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 130.39853
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 64.27953
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 120.73563
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 163.94019
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 130.46632
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 105.559845
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 164.2879
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 119.46109
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 115.53714
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 107.4743
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 103.30117
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 109.37024
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 123.22775
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 67.36375
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 157.57097
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 48.02308
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 141.63098
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 114.284485
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 146.07706
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 108.53908
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 13.376937
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 56.25199
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.9999897
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 108.58968
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 128.5736
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 52.624283
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 104.85301
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 159.50429
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 63.364338
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 124.52048
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 33.849747
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 90.178505
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 6.99312
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 8.804729
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.271
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 116.94506
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 49.53164
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 2.5223594
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 0.0555014
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 81.42363
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 114.88925
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 47.724403
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 93.90597
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 133.71701
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 5.0425406
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.9656632
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 18.955843
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 119.10618
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 133.47769
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 131.0741
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.271
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 117.79211
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 156.44342
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 116.64791
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 83.718636
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 10.779832
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 10.385453
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 5.66517
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 161.34978
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 4.724493
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 95.837845
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 36.310364
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 153.47346
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 11.688437
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": -0.9998695
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 157.77197
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 146.4519
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 122.70384
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 16.53983
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 110.31105
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 82.1637
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 111.157845
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 6.0145965
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 9.956898
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 131.21323
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 14.206456
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.99995726
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 37.30544
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 131.41713
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 118.13227
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 5.837304
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 163.1974
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 151.52402
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 101.35388
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 32.247543
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 13.120768
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 122.67184
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 135.74217
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 106.98988
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 148.79703
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 93.224174
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 56.180252
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": -0.058852457
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 139.50256
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 135.45653
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.6125795
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 135.33289
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 120.60877
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": -0.99999976
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 92.57528
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.271
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 89.030685
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 118.62524
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 133.1748
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 132.91214
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 122.038376
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 120.56442
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 30.484955
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 95.76138
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 116.77888
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 84.885315
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 104.02011
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.19
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 120.38409
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 19.603045
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 121.347496
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 154.888
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 42.62892
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 120.727264
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 104.31625
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 42.562737
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 112.337036
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 148.61946
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 25.50152
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 133.88573
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Left",
+      "value": 160.46426
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 115.011475
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": -0.1
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 135.34209
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 124.39959
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 118.3571
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 24.433353
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 109.73716
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 11.403159
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 108.439476
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 15.047793
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 158.54712
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": 104.23387
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 4.8576202
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.91137064
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 2.0633132
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 27.499718
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 30.528301
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Left",
+      "value": 95.231445
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 57.880394
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 101.03109
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": 122.00372
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 50.769897
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Right",
+      "value": -0.0013409108
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Wait",
+      "value": 0.4065283
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Wait",
+      "value": -0.999955
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 68.96109
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": -0.021013446
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 59.887386
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 158.01538
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Left",
+      "value": 130.34062
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 1
+      },
+      "action": "Down",
+      "value": 159.3777
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 127.4515
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": -0.3439
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Wait",
+      "value": 96.27704
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Up",
+      "value": 55.72052
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": -1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": 121.031334
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": 31.716589
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": 1
+      },
+      "action": "Up",
+      "value": 25.74805
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Right",
+      "value": 115.04745
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 1,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 17.992125
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": true,
+        "danger_left": false,
+        "danger_right": false,
+        "food_dx": 1,
+        "food_dy": 0
+      },
+      "action": "Down",
+      "value": -0.40951002
+    },
+    {
+      "state": {
+        "danger_up": false,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": -1
+      },
+      "action": "Up",
+      "value": 150.1739
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": -1,
+        "food_dy": -1
+      },
+      "action": "Down",
+      "value": 114.558914
+    },
+    {
+      "state": {
+        "danger_up": true,
+        "danger_down": false,
+        "danger_left": true,
+        "danger_right": true,
+        "food_dx": 0,
+        "food_dy": 1
+      },
+      "action": "Right",
+      "value": -0.1
+    }
+  ],
+  "alpha": 0.1,
+  "gamma": 0.95,
+  "epsilon": 9.221801e-14
+}

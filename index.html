@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Game</title>
+    <style>
+        html,
+        body,
+        canvas {
+            display: block;
+            width: 600px;
+            height: 600px;
+            max-width: 100%;
+            margin: 2rem auto;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="glcanvas" tabindex='1'></canvas>
+    <!-- Minified and statically hosted version of https://github.com/not-fl3/macroquad/blob/master/js/mq_js_bundle.js -->
+    <script src="mq_js_bundle.js"></script>
+    <script>load("snake_wasm.wasm");</script> <!-- Your compiled WASM binary -->
+    <section>
+      <h2>Random agent</h2>
+      <p>This agent chooses legal actions randomly...</p>
+    </section>
+    <canvas id="glcanvas" tabindex='1'></canvas>
+    <!-- Minified and statically hosted version of https://github.com/not-fl3/macroquad/blob/master/js/mq_js_bundle.js -->
+    <script src="mq_js_bundle.js"></script>
+    <script>load("snake_wasm.wasm");</script> <!-- Your compiled WASM binary -->
+    <section>
+      <h2>Heuristic agent</h2>
+      <p>This agent tries to move toward the fruit...</p>
+    </section>
+
+</body>
+</html>
