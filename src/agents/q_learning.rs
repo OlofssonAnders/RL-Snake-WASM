@@ -3,7 +3,7 @@ use crate::agents::control::Controller;
 use crate::game::game_logic::Point;
 use crate::game::{Action, Observation};
 use crate::game::snake_env::SnakeEnv;
-use rand::prelude::*;
+use macroquad::rand::gen_range;
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::collections::LinkedList;
@@ -91,11 +91,10 @@ const ACTIONS: [Action; 5] = [
 
 impl Controller for QLearningAgent {
     fn choose_action(&mut self, obs: &Observation) -> Action {
-        let mut rng = rand::rng();
         let state = StateKey::from(obs);
 
-        if rng.random::<f32>() < self.epsilon {
-            return ACTIONS[rng.random_range(0..ACTIONS.len())];
+        if gen_range(0.0, 1.0) < self.epsilon {
+            return ACTIONS[gen_range(0, ACTIONS.len())];
         }
 
         ACTIONS

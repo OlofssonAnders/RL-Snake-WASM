@@ -1,6 +1,6 @@
 use crate::game::{Action, Observation};
-use rand::prelude::*;
 use std::collections::LinkedList;
+use macroquad::rand::gen_range;
 
 pub type Point = (i8, i8);
 
@@ -108,7 +108,7 @@ impl Game {
             if self.snake.head == self.fruit {
                 self.fruit = self.random_fruit(self.squares);
                 self.score += 100;
-                self.speed *= 0.9;
+                self.speed *= 0.95;
                 //self.speed *= 1.0;
             } else {
                 self.snake.body.pop_back();
@@ -123,9 +123,8 @@ impl Game {
     }
 
     fn random_fruit(&self, squares: i8) -> (i8, i8) {
-        let mut rng = rand::rng();
         loop {
-            let pos = (rng.random_range(0..squares), rng.random_range(0..squares));
+            let pos = (gen_range(0,squares), gen_range(0,squares));
 
             if !self.snake.body.contains(&pos) && !(self.snake.head == pos) {
                 return pos;
@@ -156,6 +155,5 @@ impl Game {
 }
 
 fn random_position(squares: i8) -> (i8, i8) {
-    let mut rng = rand::rng();
-    (rng.random_range(0..squares), rng.random_range(0..squares))
+    (gen_range(0,squares), gen_range(0,squares))
 }

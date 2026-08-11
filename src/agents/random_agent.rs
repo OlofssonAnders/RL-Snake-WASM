@@ -2,7 +2,7 @@ use crate::game::{Action, Observation};
 use crate::agents::control::{Controller};
 use crate::agents::agent::{Agent};
 use crate::game::snake_env::SnakeEnv;
-use rand::prelude::*;
+use macroquad::rand::gen_range;
 
 pub struct RandomAgent {
     // Placeholder for agent's internal state, e.g., Q-table, neural network, etc.
@@ -10,9 +10,8 @@ pub struct RandomAgent {
 
 impl Controller for RandomAgent {
     fn choose_action(&mut self, _obs: &Observation) -> Action {
-        let mut rng = rand::rng();
 
-        match rng.random_range(0..5) {
+        match gen_range(0,5) {
             0 => Action::Up,
             1 => Action::Down,
             2 => Action::Left,

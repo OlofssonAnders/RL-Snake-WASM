@@ -9,13 +9,13 @@ impl SnakeEnv {
 
     pub fn new() -> Self {
         SnakeEnv {
-            game: Game::new(16, 0.1),
+            game: Game::new(16, 0.4),
             fruit_distance:  0,
         }
     }
 
     pub fn reset(&mut self) -> Observation {
-        self.game = Game::new(16, 0.1);
+        self.game = Game::new(16, 0.4);
         self.game.observe()
     }
 
