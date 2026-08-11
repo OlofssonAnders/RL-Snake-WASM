@@ -1,39 +1,325 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Snake RL Demo</title>
+
     <style>
-        html,
-        body,
-        canvas {
-            display: block;
-            width: 600px;
-            height: 600px;
+        body {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            font-family: sans-serif;
+            line-height: 1.6;
+        }
+
+        section {
+            min-height: 100vh;
+            padding-top: 80px;
+        }
+
+        .game-slot {
+            width: 400px;
             max-width: 100%;
-            margin: 2rem auto;
-            background: white;
+            aspect-ratio: 1 / 1;
+            margin: 30px auto;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            border: 1px solid #aaa;
+        }
+
+        #glcanvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        #game-placeholder {
+            text-align: center;
         }
     </style>
 </head>
+
 <body>
-    <canvas id="glcanvas" tabindex='1'></canvas>
-    <!-- Minified and statically hosted version of https://github.com/not-fl3/macroquad/blob/master/js/mq_js_bundle.js -->
-    <script src="mq_js_bundle.js"></script>
-    <script>load("snake_wasm.wasm");</script> <!-- Your compiled WASM binary -->
-    <section>
-      <h2>Random agent</h2>
-      <p>This agent chooses legal actions randomly...</p>
+
+    <h1>Reinforcement Learning with Snake</h1>
+
+    <p>
+        This page demonstrates several different approaches to controlling
+        the same Snake environment.
+    </p>
+
+
+    <!-- ========================================================= -->
+    <!-- RANDOM AGENT -->
+    <!-- ========================================================= -->
+
+    <section class="demo-section" data-agent="random">
+
+        <h2>1. Random Agent</h2>
+
+        <p>
+            We begin with the simplest possible controller. The random agent
+            chooses an action without attempting to understand the game state.
+        </p>
+
+        <div class="game-slot">
+            <!-- Canvas will be moved here when this section is active -->
+        </div>
+
     </section>
-    <canvas id="glcanvas" tabindex='1'></canvas>
-    <!-- Minified and statically hosted version of https://github.com/not-fl3/macroquad/blob/master/js/mq_js_bundle.js -->
-    <script src="mq_js_bundle.js"></script>
-    <script>load("snake_wasm.wasm");</script> <!-- Your compiled WASM binary -->
-    <section>
-      <h2>Heuristic agent</h2>
-      <p>This agent tries to move toward the fruit...</p>
+
+
+    <!-- ========================================================= -->
+    <!-- HEURISTIC AGENT -->
+    <!-- ========================================================= -->
+
+    <section class="demo-section" data-agent="heuristic">
+
+        <h2>2. Heuristic Agent</h2>
+
+        <p>
+            The heuristic agent uses hand-written rules. It can move toward
+            food and avoid immediate collisions, but it has not learned
+            anything from experience.
+        </p>
+
+        <div class="game-slot"></div>
+
     </section>
+
+
+    <!-- ========================================================= -->
+    <!-- Q LEARNING -->
+    <!-- ========================================================= -->
+
+    <section class="demo-section" data-agent="qlearning">
+
+        <h2>3. Q-Learning</h2>
+
+        <p>
+            This agent instead learns estimates of the value of actions in
+            different states through repeated interaction with the
+            environment.
+        </p>
+
+        <div class="game-slot"></div>
+
+    </section>
+
+
+    <!-- ========================================================= -->
+    <!-- THE ONE ACTUAL GAME CANVAS -->
+    <!-- ========================================================= -->
+
+    <div id="game-container" hidden>
+
+        <canvas
+            id="glcanvas"
+            tabindex="1"
+            width="700"
+            height="700">
+        </canvas>
+
+    </div>
+
+
+    <script type="module">
+
+        /*
+         * The important idea:
+         *
+         *      ONE WASM instance
+         *      ONE canvas
+         *      MANY positions in the document
+         *
+         * The canvas is physically moved between .game-slot elements.
+         */
+
+
+        let wasmLoaded = false;
+        let wasm = null;
+
+        let activeSection = null;
+
+        const canvas = document.getElementById("glcanvas");
+        const gameContainer = document.getElementById("game-container");
+
+
+
+        // ============================================================
+        // LOAD WASM
+        // ============================================================
+
+
+        let gameLoaded = false;
+
+        async function loadGame() {
+            if (gameLoaded) {
+                return;
+            }
+        
+            gameLoaded = true;
+        
+            // Load Macroquad's JS runtime
+            await new Promise((resolve, reject) => {
+                const script = document.createElement("script");
+            
+                script.src = "mq_js_bundle.js";
+                script.onload = resolve;
+                script.onerror = reject;
+            
+                document.head.appendChild(script);
+            });
+        
+            // mq_js_bundle.js has now defined load()
+            load("snake_wasm.wasm");
+        }
+       
+
+        // ============================================================
+        // TELL RUST WHICH AGENT TO USE
+        // ============================================================
+
+        function switchAgent(agentName) {
+
+            if (!wasmLoaded) {
+                return;
+            }
+
+            console.log("Switching agent:", agentName);
+
+
+            /*
+             * Calls the Rust function exported through wasm-bindgen.
+             */
+
+            wasm.set_agent(agentName);
+        }
+
+
+
+        // ============================================================
+        // MOVE THE CANVAS
+        // ============================================================
+
+        function moveGameToSection(section) {
+
+            const slot = section.querySelector(".game-slot");
+
+            if (!slot) {
+                return;
+            }
+
+
+            /*
+             * appendChild does NOT copy the canvas.
+             *
+             * Because the canvas already exists elsewhere in the DOM,
+             * appendChild MOVES it here.
+             */
+
+            slot.appendChild(canvas);
+
+            canvas.focus();
+        }
+
+
+
+        // ============================================================
+        // ACTIVATE A DEMO
+        // ============================================================
+
+        async function activateSection(section) {
+
+            if (section === activeSection) {
+                return;
+            }
+
+
+            /*
+             * This is where the lazy loading happens.
+             *
+             * The WASM bundle won't be downloaded until one of the
+             * game sections actually becomes visible.
+             */
+
+            await loadGame();
+
+
+            activeSection = section;
+
+            moveGameToSection(section);
+
+
+            const agent = section.dataset.agent;
+
+            switchAgent(agent);
+        }
+
+
+
+        // ============================================================
+        // OBSERVE SCROLL POSITION
+        // ============================================================
+
+        const observer = new IntersectionObserver(
+
+            (entries) => {
+
+                /*
+                 * Several sections can technically intersect the
+                 * viewport simultaneously.
+                 *
+                 * Pick the one with the greatest intersection ratio.
+                 */
+
+                const visible = entries
+                    .filter(entry => entry.isIntersecting)
+                    .sort(
+                        (a, b) =>
+                            b.intersectionRatio - a.intersectionRatio
+                    );
+
+
+                if (visible.length === 0) {
+                    return;
+                }
+
+
+                activateSection(visible[0].target);
+            },
+
+            {
+                /*
+                 * Fire as the section gradually enters the screen.
+                 */
+
+                threshold: [
+                    0.1,
+                    0.25,
+                    0.5,
+                    0.75
+                ]
+            }
+        );
+
+
+
+        // ============================================================
+        // REGISTER ALL DEMOS
+        // ============================================================
+
+        document
+            .querySelectorAll(".demo-section")
+            .forEach(section => observer.observe(section));
+
+    </script>
 
 </body>
 </html>
