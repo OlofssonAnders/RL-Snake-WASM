@@ -181,6 +181,22 @@ impl QLearningAgent {
         })
     }
 
+    pub fn load_save(save: QLearningSave) -> Result<Self, Box<dyn std::error::Error>> {
+
+        let q = save
+            .q
+            .into_iter()
+            .map(|entry| ((entry.state, entry.action), entry.value))
+            .collect();
+
+        Ok(Self {
+            q,
+            alpha: save.alpha,
+            gamma: save.gamma,
+            epsilon: save.epsilon,
+        })
+    }
+
     pub fn learn(
         &mut self,
         obs: &Observation,

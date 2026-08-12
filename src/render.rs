@@ -144,8 +144,8 @@ pub fn draw_game_in_rect(game: &Game, area: Rect, agent_name: &str) {
         GOLD,
     );
     let font_size = 0.09 * game_size;
-    draw_text(format!("AGENT: {}", agent_name).as_str(), board.x, board.y - font_size*0.5, font_size, DARKGRAY);
-    draw_text(format!("SCORE: {}", obs.score).as_str(), board.x + font_size*8., board.y - font_size*0.5, font_size, DARKGRAY);
+    draw_text(format!("AGENT:{}", agent_name).as_str(), board.x, board.y - font_size*0.3, font_size, DARKGRAY);
+    draw_text(format!(" SCORE:{}", obs.score).as_str(), board.x + font_size*7., board.y - font_size*0.3, font_size, DARKGRAY);
 
     if obs.game_over {
         let text = "Game Over!";
