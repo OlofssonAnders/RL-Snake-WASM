@@ -7,109 +7,236 @@
     <title>Snake RL Demo</title>
 
     <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            color-scheme: light dark;
+        }
+
         body {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            font-family: sans-serif;
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             line-height: 1.6;
         }
 
+        main {
+            width: min(100% - 2rem, 900px);
+            margin-inline: auto;
+            padding-block: clamp(1.5rem, 4vw, 3rem);
+        }
+
         section {
-            min-height: 100vh;
-            padding-top: 80px;
+            min-height: 75svh;
+            padding-block: clamp(1.5rem, 4vw, 3rem);
+        }
+
+        h1 {
+            margin-top: 0;
+            text-align: center;
+            line-height: 1.15;
+        }
+        
+        h2 {
+            line-height: 1.25;
+            text-align: center;
+        }
+
+        p {
+            max-width: 60ch;
+            margin: 1em auto;
+        }
+
+        a {
+            overflow-wrap: anywhere;
+        }
+
+        ol, ul {
+            max-width: 60ch;
+            margin: 1em auto;
         }
 
         .game-slot {
-            width: 400px;
-            max-width: 100%;
+            width: min(100%, 400px);
             aspect-ratio: 1 / 1;
-            margin: 30px auto;
+            margin: 2rem auto;
 
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: grid;
+            place-items: center;
 
             border: 1px solid #aaa;
         }
 
         #glcanvas {
             width: 100%;
-            height: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
             display: block;
         }
 
-        #game-placeholder {
-            text-align: center;
+        @media (max-width: 480px) {
+            main {
+                width: min(100% - 1rem, 900px);
+            }
+
+            section {
+                min-height: auto;
+                padding-block: 2rem;
+            }
         }
     </style>
 </head>
 
 <body>
 
+<main>
     <h1>Reinforcement Learning with Snake</h1>
 
     <p>
-        This page demonstrates several different approaches to controlling
-        the same Snake environment.
+        In this article I present my journey to beating snake using Reinforcement Learning!
+        The game has simple rules and the set of possible actions at any given moment is small,
+        the game is simple enough to be implememted in a few lines of code and is therefore a perfect candidate 
+        for testing out reinforcement learning models. It is also surprisingly difficult to beat using purely heuristic approaches, 
+        where the agent is programmed with a set of rules to follow.  
     </p>
 
+    <p>
+        The game is rendered using Macroquad which is a simple and easy to use game engine for rust. The game logic and visual design
+        is a direct copy of one of their examples listed on their <a href="https://macroquad.rs/examples/">website</a>. 
+    </p>
 
+    <p>
+        I started by implementing a simple agent that chose actions randomly just to iron out any issues with the game to agent-interface 
+        Unsurprisingly, the random agent was rarely able to score any points. Following this I implemented the "heuristic" agent to set a baseline to compare against.
+        I then implemented progressively more complex agents in the rust programming language. All code is available on my  
+        <a href="https://github.com/OlofssonAnders/RL-Snake">github page</a>. The demos were compiled to <a href="https://webassembly.org/">WebAssembly</a>, as macroquad provides
+        excellent support for this. This is significantly faster than javascript and allows my demo to run more smoothly.
+    </p>
+
+    <p>
+        The agents presented below are:
+    </p>
+
+    <ol>
+        <li>Random Agent</li>
+        <li>Heuristic Agent (Following predefined rules)</li>
+        <li>Q-Learning Agent</li>
+        <!--<li>Agent</li>-->
+        <li>User Input (If you want to try it yourself)</li>
+    </ol>
+    
+    
     <!-- ========================================================= -->
     <!-- RANDOM AGENT -->
     <!-- ========================================================= -->
-
-    <section class="demo-section" data-agent="random">
-
-        <h2>1. Random Agent</h2>
-
+    
+    <section class="demo-section" data-agent="0">
+        
+        <h2>Random Agent</h2>
+        
         <p>
-            We begin with the simplest possible controller. The random agent
-            chooses an action without attempting to understand the game state.
+           At each time step, this agent chooses one of the five possible actions (up, down, left, right or wait) at random. 
         </p>
-
-        <div class="game-slot">
-            <!-- Canvas will be moved here when this section is active -->
-        </div>
-
+        
+        <div class="game-slot"></div>
+        
     </section>
-
-
+    
+    
     <!-- ========================================================= -->
     <!-- HEURISTIC AGENT -->
     <!-- ========================================================= -->
-
-    <section class="demo-section" data-agent="heuristic">
-
-        <h2>2. Heuristic Agent</h2>
-
+    
+    <section class="demo-section" data-agent="1">
+        
+        <h2>Heuristic Agent</h2>
+        
         <p>
-            The heuristic agent uses hand-written rules. It can move toward
-            food and avoid immediate collisions, but it has not learned
-            anything from experience.
+            The heuristic agent uses hand-written rules. 
+            I's programmed to move directly towards food and avoid immediate collisions with the border. 
+            Defining rules to avoid situations where the snake collides with itself or ensnares itself was difficult, and 
+            I eventually gave up on the idea as it happens to exemplify the limitations of heuristical approaches well. 
+            In addition to poor generalization, rules quickly become complex and dificult to integrate into the model.
         </p>
-
+        
+        <p>
+            As can be seen in the demo, the heuristic agent is able to survive for a while, but eventually it 
+            runs into itself. It will do this over and over again as the implementation does not have any kind of learning.  
+            On average, the heuristic agent will score higher than the random agent, but it is still far from optimal.
+            <a href="https://github.com/OlofssonAnders/RL-Snake/blob/main/src/agents/heuristic_agent.rs">Heuristic agent implementation details</a>
+        </p>
+        
+        
         <div class="game-slot"></div>
-
+        
     </section>
-
-
+    
+    
     <!-- ========================================================= -->
     <!-- Q LEARNING -->
     <!-- ========================================================= -->
-
-    <section class="demo-section" data-agent="qlearning">
-
-        <h2>3. Q-Learning</h2>
-
+    
+    <section class="demo-section" data-agent="2">
+        
+        <h2>Q-Learning</h2>
+        
         <p>
-            This agent instead learns estimates of the value of actions in
-            different states through repeated interaction with the
-            environment.
+            Q-learning is an algorithm that learns which actions are most valuable in different states, allowing the agent to approximate an optimal policy (playing strategy).
+            Reward in this context is a numerical value that the agent receives for each action it takes. 
+            Naturally, it is important to specify what constitutes a good reward. In this context, keeping the snake alive should be rewarding. It should also be rewarding to collect food. 
+            After a bit of experimentation, the reward function (returning a reward given an action and state) for the snake game was defined as follows:
+            <ul>
+                <li>Colliding and dying: -1.0</li>
+                <li>Collecting food: 50.0</li>
+                <li>Reducing distance to food: 10.0</li>
+                <li>Doing nothing of the above: -0.001 (This was added to prevent the snake from circling indefinitely)</li>
+            </ul>
         </p>
-
+        <p>
+            The algorithm works by storing and updating a value for each state-action pair. This value (Q-value) estimates the expected cumulative future reward from taking that action in that state and behaving optimally thereafter.
+             These values are constantly updated as the agent explores the environment and receives 
+             feedback in the form of rewards. 
+        </p>
+        <p>
+             The states, in this context, do not capture the entirety of the information available from the game. They are only simplified portions. 
+             The number of unique states to consider given all the available information, even in a small game like Snake, would become too large to handle. 
+             Therefore the number of states that the agent is exposed to is reduced by considering only the most useful pieces of information. 
+        </p>
+        <p>
+             Similar to how it is important to define a good reward function, it is also important to define a good state representation. What 
+             should the agent "see" in order to make good decisions while not overwhelming it with too much information? The state representation I used is the following: 
+            <ul>
+                <li>There is a wall or body segment (aka obstacle) immediately above the head, below, to the left, or to the right</li>
+                <li>The food is above, below or on the same row as the head</li>
+                <li>The food is to the left, right or on the same column as the head</li>
+            </ul>
+        </p>
+        <p>
+            The procedure that computes how the state-action pairs should be updated for each step, as the agent is traversing the environment,
+             is not overly complicated, it only needs the current state, the action taken, the immediate reward, and what the next state is going to be (along with parameters for exploration rate etc.) see
+             <a href="https://en.wikipedia.org/wiki/Q-learning">Q-Learning algorithm</a>. This agent, playing snake below, was trained by playing the game 30 000 times. In the demo, the exploration rate is set to 0, meaning that the agent will always choose the action that is deemed to yield the highest reward. 
+            <a href="https://github.com/OlofssonAnders/RL-Snake/blob/main/src/agents/q_learning.rs">Q-Learning implementation details</a>
+        </p>
+        
+        
         <div class="game-slot"></div>
+        
+    </section>
+    
 
+    <!-- ========================================================= -->
+    <!-- USER INPUT -->
+    <!-- ========================================================= -->
+    
+    <section class="demo-section" data-agent="3">
+        
+        <h2>Arrow keys input (click to take control)</h2>
+       
+        <div class="game-slot"></div>
+        
     </section>
 
 
@@ -118,37 +245,26 @@
     <!-- ========================================================= -->
 
     <div id="game-container" hidden>
-
         <canvas
             id="glcanvas"
-            tabindex="1"
+            tabindex="0"
             width="700"
-            height="700">
+            height="700"
+            aria-label="Snake reinforcement-learning demonstration">
         </canvas>
-
     </div>
+
+</main>
 
 
     <script type="module">
 
-        /*
-         * The important idea:
-         *
-         *      ONE WASM instance
-         *      ONE canvas
-         *      MANY positions in the document
-         *
-         * The canvas is physically moved between .game-slot elements.
-         */
-
-
-        let wasmLoaded = false;
-        let wasm = null;
+        // The canvas is moved between .game-slot elements.
 
         let activeSection = null;
+        let loadGamePromise = null;
 
         const canvas = document.getElementById("glcanvas");
-        const gameContainer = document.getElementById("game-container");
 
 
 
@@ -156,53 +272,55 @@
         // LOAD WASM
         // ============================================================
 
-
-        let gameLoaded = false;
-
-        async function loadGame() {
-            if (gameLoaded) {
-                return;
+        function loadGame() {
+            if (loadGamePromise) {
+                return loadGamePromise;
             }
-        
-            gameLoaded = true;
-        
-            // Load Macroquad's JS runtime
-            await new Promise((resolve, reject) => {
-                const script = document.createElement("script");
-            
-                script.src = "mq_js_bundle.js";
-                script.onload = resolve;
-                script.onerror = reject;
-            
-                document.head.appendChild(script);
+
+            loadGamePromise = (async () => {
+                await new Promise((resolve, reject) => {
+                    const script = document.createElement("script");
+
+                    script.src = "mq_js_bundle.js";
+                    script.onload = resolve;
+                    script.onerror = () => reject(new Error("Could not load mq_js_bundle.js"));
+
+                    document.head.appendChild(script);
+                });
+
+                let requestedAgent = 0;
+
+                miniquad_add_plugin({
+                    name: "snake_agent_bridge",
+                    version: 1,
+
+                    register_plugin: function(importObject) {
+                        importObject.env.get_requested_agent = function() {
+                            return requestedAgent;
+                        };
+                    }
+                });
+
+                window.setAgent = function(agent) {
+                    requestedAgent = Number(agent);
+                };
+
+                load("snake_wasm.wasm");
+            })().catch((error) => {
+                loadGamePromise = null;
+                throw error;
             });
-        
-            // mq_js_bundle.js has now defined load()
-            load("snake_wasm.wasm");
+
+            return loadGamePromise;
         }
        
-
         // ============================================================
         // TELL RUST WHICH AGENT TO USE
         // ============================================================
 
         function switchAgent(agentName) {
-
-            if (!wasmLoaded) {
-                return;
-            }
-
-            console.log("Switching agent:", agentName);
-
-
-            /*
-             * Calls the Rust function exported through wasm-bindgen.
-             */
-
-            wasm.set_agent(agentName);
+            window.setAgent(Number(agentName));
         }
-
-
 
         // ============================================================
         // MOVE THE CANVAS
@@ -216,19 +334,9 @@
                 return;
             }
 
-
-            /*
-             * appendChild does NOT copy the canvas.
-             *
-             * Because the canvas already exists elsewhere in the DOM,
-             * appendChild MOVES it here.
-             */
-
             slot.appendChild(canvas);
-
-            canvas.focus();
+            //canvas.focus();
         }
-
 
 
         // ============================================================
@@ -241,24 +349,17 @@
                 return;
             }
 
-
-            /*
-             * This is where the lazy loading happens.
-             *
-             * The WASM bundle won't be downloaded until one of the
-             * game sections actually becomes visible.
-             */
-
-            await loadGame();
-
+            try {
+                await loadGame();
+            } catch (error) {
+                console.error("Unable to load the Snake demo:", error);
+                return;
+            }
 
             activeSection = section;
-
             moveGameToSection(section);
 
-
-            const agent = section.dataset.agent;
-
+            const agent = Number(section.dataset.agent);
             switchAgent(agent);
         }
 
@@ -268,52 +369,43 @@
         // OBSERVE SCROLL POSITION
         // ============================================================
 
+        const visibleMap = new Map();
+
         const observer = new IntersectionObserver(
-
             (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        visibleMap.set(entry.target, entry);
+                    } else {
+                        visibleMap.delete(entry.target);
+                    }
+                });
 
-                /*
-                 * Several sections can technically intersect the
-                 * viewport simultaneously.
-                 *
-                 * Pick the one with the greatest intersection ratio.
-                 */
+                if (visibleMap.size === 0) return;
 
-                const visible = entries
-                    .filter(entry => entry.isIntersecting)
-                    .sort(
-                        (a, b) =>
-                            b.intersectionRatio - a.intersectionRatio
-                    );
+                const viewportCenter = window.innerHeight / 2;
+                let bestTarget = null;
+                let smallestDistance = Infinity;
 
+                visibleMap.forEach((_entry, section) => {
+                    const rect = section.getBoundingClientRect();
+                    const sectionCenter = rect.top + rect.height / 2;
+                    const distance = Math.abs(sectionCenter - viewportCenter);
 
-                if (visible.length === 0) {
-                    return;
+                    if (distance < smallestDistance) {
+                        smallestDistance = distance;
+                        bestTarget = section;
+                    }
+                });
+
+                if (bestTarget) {
+                    activateSection(bestTarget);
                 }
-
-
-                activateSection(visible[0].target);
             },
-
             {
-                /*
-                 * Fire as the section gradually enters the screen.
-                 */
-
-                threshold: [
-                    0.1,
-                    0.25,
-                    0.5,
-                    0.75
-                ]
+                threshold: [0, 0.25, 0.5, 0.75, 1]
             }
         );
-
-
-
-        // ============================================================
-        // REGISTER ALL DEMOS
-        // ============================================================
 
         document
             .querySelectorAll(".demo-section")

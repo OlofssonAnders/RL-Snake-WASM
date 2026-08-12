@@ -1,7 +1,33 @@
 use macroquad::prelude::*;
+use snake_game::agents::q_learning::QLearningSave;
 use snake_game::render;
 use snake_game::game::{snake_env::SnakeEnv, observation::Observation};
 use snake_game::agents::{control::Controller, human_control::HumanController, heuristic_agent::HeuristicAgent, random_agent::RandomAgent, q_learning::QLearningAgent};
+
+const Q_LEARNING_FILE: &'static str = "q_learning";
+
+#[cfg(target_arch = "wasm32")]
+unsafe extern "C" {
+    fn get_requested_agent() -> i32;
+}
+
+pub async fn load_q_table(path: &str) -> Result<QLearningAgent, String> {
+    let bytes = load_file(path)
+        .await
+        .map_err(|e| format!("Failed to load {path}: {e}"))?;
+
+    let text = String::from_utf8(bytes)
+        .map_err(|e| format!("Invalid UTF-8: {e}"))?;
+
+    let QLearningSave { q, alpha, gamma, epsilon } =
+        serde_json::from_str(&text)
+            .map_err(|e| format!("Invalid JSON: {e}"))?;
+
+    let agent: QLearningAgent = QLearningAgent::load_save(QLearningSave { q, alpha, gamma, epsilon })
+        .map_err(|e| format!("Failed to load Q-learning agent: {e}"))?;
+
+    Ok(agent)
+}
 
 struct GameInstance<C> {
     env: SnakeEnv,
@@ -61,7 +87,8 @@ where
 async fn main() {
     let mut random = GameInstance::new("Random", RandomAgent::new());
     let mut heuristic = GameInstance::new("Heuristic", HeuristicAgent::new());
-    let mut qlearning = GameInstance::new("Q-learning", QLearningAgent::new());
+    let qlearning_agent = load_q_table(Q_LEARNING_FILE).await.expect("Failed to load Q-learning agent");
+    let mut qlearning = GameInstance::new("Q-learning", qlearning_agent);
     let mut human = GameInstance::new("You", HumanController::new());
 
     loop {
@@ -73,24 +100,34 @@ async fn main() {
         let h = screen_height();
         let rect = Rect::new(0.,0.,w,h);
 
-        let rects = [
-            Rect::new(0.0, 0.0, w / 2.0, h / 2.0),
-            Rect::new(w / 2.0, 0.0, w / 2.0, h / 2.0),
-            Rect::new(0.0, h / 2.0, w / 2.0, h / 2.0),
-            Rect::new(w / 2.0, h / 2.0, w / 2.0, h / 2.0),
-        ];
+        let requested_agent = 0;
 
-        //heuristic.update(dt);
-        //random.update(dt);
-        //qlearning.update(dt);
-        heuristic.update(dt);
+        #[cfg(target_arch = "wasm32")]
+        let requested_agent = unsafe {
+            get_requested_agent()
+        };
 
         clear_background(LIGHTGRAY);
-        //render::draw_game_in_rect(&heuristic.env.game, rects[0], heuristic.title);
-        //render::draw_game_in_rect(&human.env.game, rects[1], human.title);
-        //render::draw_game_in_rect(&qlearning.env.game, rects[2], qlearning.title);
-        //render::draw_game_in_rect(&random.env.game, rects[3], random.title);
-        render::draw_game_in_rect(&heuristic.env.game, rect, heuristic.title);
+
+        match requested_agent {
+            0 => {
+                random.update(dt);
+                render::draw_game_in_rect(&random.env.game, rect, random.title);
+                },
+            1 => {
+                heuristic.update(dt);
+                render::draw_game_in_rect(&heuristic.env.game, rect, heuristic.title);
+                },
+            2 => {
+                qlearning.update(dt);
+                render::draw_game_in_rect(&qlearning.env.game, rect, qlearning.title);
+                },
+            3 => {
+                human.update(dt);
+                render::draw_game_in_rect(&human.env.game, rect, human.title);
+                },
+            _ => {}
+        }
         next_frame().await;
     }
 }
