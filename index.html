@@ -158,13 +158,12 @@
             It's programmed to move directly towards food. 
             Defining rules to prevent the snake from colliding with itself or ensnare itself was difficult, and 
             I eventually gave up on the idea as it happens to exemplify the big issue with this approach in general: 
-            In addition to zero generalization, rules quickly become complex and dificult to integrate into the model.
+            In addition to zero generalization, rules quickly become complex and difficult to integrate into the model.
         </p>
         
         <p>
             As can be seen in the demo, the heuristic agent eventually it 
             runs into itself. It will do this over and over again as the implementation does not have any kind of learning.  
-            On average, the heuristic agent will score higher than the random agent, but it is still far from optimal.
             <a href="https://github.com/OlofssonAnders/RL-Snake/blob/main/src/agents/heuristic_agent.rs">Heuristic agent implementation details</a>
         </p>
         
@@ -184,7 +183,7 @@
         
         <p>
             Q-learning is an algorithm that learns which actions are most valuable in different states of the game, allowing the agent to approximate an optimal policy (playing strategy).
-            The most valuable action is the action that maximizes the expected future reward (Over multiple steps into the future). In this context, reward is a value that the agent receives for each action it takes. It is dictated by the environment and is therefore external to the agent.
+            The most valuable action is the action that maximizes the expected future reward (Over multiple steps into the future). In this context, reward is a value that the agent receives for each action it takes. It is dictated by the environment and is external to the agent.
         </p>
         <p>
             It is important to specify what constitutes a good reward. For this game, keeping the snake alive should be rewarding. It should also be rewarding to collect food.
@@ -219,7 +218,7 @@
             The procedure that computes how the state-action pairs should be updated for each step
              is not overly complicated and is not computationally demanding. see  
              <a href="https://en.wikipedia.org/wiki/Q-learning">Q-Learning algorithm</a>. This agent, playing snake below, was trained by playing the game 30 000 times. 
-             In the demo, it has been configured to always choose the action that is deemed to yield the highest future reward as opposed to making ocasional "explorative" actions. 
+             In the demo, it has been configured to always choose the action that is deemed to yield the highest future reward as opposed to making occasional "explorative" actions. 
             <a href="https://github.com/OlofssonAnders/RL-Snake/blob/main/src/agents/q_learning.rs">Q-Learning implementation details</a>
         </p>
         
@@ -234,12 +233,17 @@
     
     <section class="demo-section" data-agent="2">
         
-        <h2>Deep Q-Learning (Deep Q-Network)</h2>
+        <h2>Deep Q-Learning (Deep Q-Network) Not completed</h2>
        
         <p>
             Deep Q-learning, or Deep Q-Network (DQN), is similar to regular tabular Q-learning but involves neural networks. 
-            The tabular Q-learning agent often ensnared itself since it couldn't see the full body of the snake. With Deep Q-learning, the 
-            entire board could be the state presented to be model. By using a CNN to interpret the board, it will not be too demanding in terms of computation.
+            The tabular Q-learning agent ensnared itself since it couldn't see the full body of the snake. Expanding the state representation would require much more 
+            memory since it will exponentially increase the size of the table (Q-table) holding all the values associated with state-action pairs. 
+        </p>
+        <p> 
+            With a Deep Q-Network, on the other hand, the 
+            state representation could incorporate the entire board. A DQN replaces the enormous Q-table, containing state-action pairs and their values, with a function approximator that can generalize between states, 
+            making large state representations practical. It can also incorporate a CNN which can extract spatial patterns from the board effectively even though there are many squares to consider.
             <a href="https://medium.com/@samina.amin/deep-q-learning-dqn-71c109586bae">Deep Q-Network</a>
         </p>
         
